@@ -8,19 +8,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Todos
-            <button id="parge">Purge</button>
-        </h1>
-        <ul id="todos">
-            
-        </ul>
-
-        <form action="" id="add-form">
-            <input type="text">
-            <button>abb</button>
-        </form>
-    </div>
+    <ul>
+        <!-- 月毎のタスク管理 -->
+        <li onclick="tabSwitching">
+            <div class="container">
+                <h1>
+                    月毎のタスク管理
+                    <button id="parge">Purge</button>
+                </h1>
+                <ul id="todos">
+                    
+                </ul>
+        
+                <form action="" id="add-form">
+                    <input type="text">
+                    <button>abb</button>
+                </form>
+            </div>
+        </li>
+    </ul>
     <script  src="todo.js"></script>
 </body>
 </html>
